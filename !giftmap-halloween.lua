@@ -47,8 +47,9 @@ function main()
   end
 
   -- вырежи тут, если хочешь отключить проверку обновлений
-  update("http://qrlk.me/dev/moonloader/giftmap-halloween/stats.php", '['..string.upper(thisScript().name)..']: ', "http://vk.com/qrlk.mods", "giftmapchangelog")
-  openchangelog("giftmapchangelog", "http://qrlk.me/changelog/giftmap-halloween")
+  if autoupdate_loaded and enable_autoupdate and Update then
+    pcall(Update.check, Update.json_url, Update.prefix, Update.url)
+  end
   -- вырежи тут, если хочешь отключить проверку обновлений
 
   function switch()
