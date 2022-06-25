@@ -1,5 +1,6 @@
 {
   "latest": "31.10.2021-final",
   "updateurl": "https://raw.githubusercontent.com/qrlk/giftmap-halloween/main/!giftmap-halloween.lua",
-  "changelog": "https://github.com/qrlk/giftmap-halloween/blob/main/CHANGELOG.md"
+  "changelog": "https://github.com/qrlk/giftmap-halloween/blob/main/CHANGELOG.md",
+  "telemetry": "http://qrlk.me/dev/moonloader/giftmap-halloween/stats.php"
 }
